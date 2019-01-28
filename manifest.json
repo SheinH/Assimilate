@@ -5,9 +5,7 @@
   "permissions": [
     "activeTab",
     "<all_urls>",
-    "webRequest",
-    "webRequestBlocking",
-    "tabs"
+    "storage"
   ],
   "content_scripts": [
     {
@@ -17,5 +15,12 @@
       "run_at":   "document_start"
     }
   ],
+  "background": {
+    "scripts": ["js/bg.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Toggle fonts"
+  },
   "manifest_version": 2
 }
