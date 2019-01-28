@@ -1,6 +1,6 @@
 {
-  "name": "Page Redder",
-  "description": "Make the current page red",
+  "name": "Assimilate",
+  "description": "Use System Fonts on Most Sites",
   "version": "2.0",
   "permissions": [
     "activeTab",
