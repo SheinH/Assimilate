@@ -1,7 +1,7 @@
 {
   "name": "Assimilate",
   "description": "Use System Fonts on Most Sites",
-  "version": "2.0",
+  "version": "1.0",
   "permissions": [
     "activeTab",
     "<all_urls>",
