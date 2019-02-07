@@ -1,0 +1,305 @@
+@font-face {
+    font-family: Arial;
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: Calibri;
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: Verdana;
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: Roboto;
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: "Geneva";
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: "Tahoma";
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: "Trebuchet MS";
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    src: local(".SFNSText"), local("Segoe UI"), local("Arial"), local("Roboto"), local("Droid Sans");
+
+}
+
+
+
+@font-face {
+    font-family: Arial;
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: Helvetica;
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: Calibri;
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: Verdana;
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: "Geneva";
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: "Tahoma";
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    font-weight: 700;
+    src: local(".SFNSText-Bold");
+
+}
+
+
+
+
+
+@font-face {
+    font-family: Arial;
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: Helvetica;
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: Calibri;
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: Verdana;
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: "Geneva";
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: "Tahoma";
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: "Trebuchet MS";
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    font-weight: 200;
+    src: local(".SFNSText-Light");
+
+}
+
+
+
+
+@font-face {
+    font-family: Arial;
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: Helvetica;
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: Calibri;
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: Verdana;
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: "Geneva";
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: "Tahoma";
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: "Trebuchet MS";
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}
+
+@font-face {
+    font-family: "Lucida Grande";
+    font-weight: 500;
+    src: local(".SFNSText-Medium");
+
+}

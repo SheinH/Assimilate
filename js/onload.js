@@ -1,64 +1,13 @@
-chrome.storage.sync.get(['enable'], function(val) {
+chrome.storage.sync.get(['enable'], function (val) {
     console.log(val);
 
-    if(val["enable"]) {
-        var style = document.createElement("style");
-        style.type = "text/css"
-        b = "@font-face {\n"
-            + "  font-family: Arial;\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}\n"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: Helvetica;\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}\n"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: \"Helvetica Neue\";\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}\n"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: Calibri;\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}\n"
-            + "\n"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: Verdana;\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}\n"
-            + "\n"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: Roboto;\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}\n"
-            + "@font-face {\n"
-            + "  font-family: \"Geneva\";\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}\n"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: \"Tahoma\";\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: \"Lucida Sans Unicode\";\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: \"Trebuchet MS\";\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "}"
-            + "\n"
-            + "@font-face {\n"
-            + "  font-family: \"Lucida Grande\";\n"
-            + "  src: local(\".SFNSText\"), local(\"Segoe UI\"), local(\"Arial\"), local(\"Roboto\"), local(\"Droid Sans\");\n"
-            + "} !important";
-        style.innerText = b, document.head ? document.head.appendChild(style) : document.documentElement.appendChild(style);
+    if (val["enable"]) {
+        const link = document.createElement("link");
+        const a = chrome.extension.getURL("css/style.css");
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        link.href = a;
+        console.log(link);
+        document.head ? document.head.appendChild(link) : document.documentElement.appendChild(link);
     }
 });
